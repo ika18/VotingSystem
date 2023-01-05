@@ -1,8 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/ikawu/Library/Caches/JetBrains/Rider2022.3/resharper-host/temp/Rider/vAny/CoverageData/_VotingSystem.1962738693/Snapshot/snapshot.utdcvr</s:String>
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=96ff5cdf_002D2c42_002D46eb_002Db355_002D6133fd54d836/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_AddsTwoNumbersTogether" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::4423C90D-F650-47F0-9247-EEBB753D0DFE::net6.0::VotingSystem.Tests.TestOneTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::4423C90D-F650-47F0-9247-EEBB753D0DFE::net6.0::VotingSystem.Tests.MathOneTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::4423C90D-F650-47F0-9247-EEBB753D0DFE::net6.0::VotingSystem.Tests.VotingPollInteractorTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a53a68c9_002Dbd4d_002D48a2_002D9e32_002D7504a2d0eb35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CounterTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::4423C90D-F650-47F0-9247-EEBB753D0DFE::net6.0::VotingSystem.Tests.CounterTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
