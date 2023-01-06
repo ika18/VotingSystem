@@ -12,5 +12,5 @@ public class VotingPoll
         Counters = new List<Counter>();
     }
 
-    public ICollection<Counter> Counters { get; set; }
+    public List<Counter> Counters { get; set; }
 }

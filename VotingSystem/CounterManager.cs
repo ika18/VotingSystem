@@ -2,15 +2,20 @@ using VotingSystem.Models;
 
 namespace VotingSystem;
 
-public class CounterManager
+public class CounterManager : ICounterManager
 {
-    public Counter GetStatistics(Counter counter, int totalCount)
+    public List<CounterStatistics> GetStatistics(ICollection<Counter> pollCounters)
     {
-        counter.Percent = RoundUp(counter.Count * 100.0 / totalCount);
-        return counter;
+        var totalCount = pollCounters.Sum(x => x.Count);
+        return pollCounters.Select(x => new CounterStatistics
+        {
+            Name = x.Name,
+            Count = x.Count,
+            Percent = RoundUp(x.Count * 100.0 / totalCount)
+        }).ToList();
     }
 
-    public void ResolveExcess(List<Counter> counters)
+    public void ResolveExcess(List<CounterStatistics> counters)
     {
         var totalPercent = counters.Sum(x => x.Percent);
 
