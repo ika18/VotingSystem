@@ -1,0 +1,14 @@
+@page "{id?}"
+@model VotingSystem.Ui.Pages.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Razer Index Page</h1>
+
+<form action="post">
+    @Html.AntiForgeryToken()
+    <input type="text" name="Request.Title">
+
+    <button type="submit">Submit</button>
+</form>
