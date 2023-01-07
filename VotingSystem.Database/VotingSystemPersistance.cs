@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using VotingSystem.Application;
 using VotingSystem.Models;
 
 namespace VotingSystem.Database;

@@ -11,7 +11,7 @@ public class CounterManager : ICounterManager
         {
             Name = x.Name,
             Count = x.Count,
-            Percent = RoundUp(x.Count * 100.0 / totalCount)
+            Percent = totalCount > 0 ? RoundUp(x.Count * 100.0 / totalCount) : 0
         }).ToList();
     }
 

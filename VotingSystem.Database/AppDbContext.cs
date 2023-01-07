@@ -1,4 +1,3 @@
-using System.Diagnostics.Metrics;
 using Microsoft.EntityFrameworkCore;
 using VotingSystem.Models;
 

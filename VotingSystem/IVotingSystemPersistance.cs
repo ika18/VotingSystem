@@ -1,6 +1,6 @@
 using VotingSystem.Models;
 
-namespace VotingSystem.Application;
+namespace VotingSystem;
 
 public interface IVotingSystemPersistance
 {

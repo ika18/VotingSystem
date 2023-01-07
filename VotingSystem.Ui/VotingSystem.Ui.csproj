@@ -7,6 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\VotingSystem.Application\VotingSystem.Application.csproj" />
+      <ProjectReference Include="..\VotingSystem.Database\VotingSystem.Database.csproj" />
       <ProjectReference Include="..\VotingSystem\VotingSystem.csproj" />
     </ItemGroup>
 
@@ -17,11 +19,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.1" />
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Views" />
     </ItemGroup>
 
 </Project>
